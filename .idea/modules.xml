@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lib/api-docs/api-docs.iml" filepath="$PROJECT_DIR$/lib/api-docs/api-docs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend-parent.iml" filepath="$PROJECT_DIR$/backend-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend-starter/backend-starter.iml" filepath="$PROJECT_DIR$/backend-starter/backend-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/exception/exception.iml" filepath="$PROJECT_DIR$/lib/exception/exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/file-handler/file-handler.iml" filepath="$PROJECT_DIR$/lib/file-handler/file-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/logging/logging.iml" filepath="$PROJECT_DIR$/lib/logging/logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/notification/notification.iml" filepath="$PROJECT_DIR$/lib/notification/notification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/sample-service/sample-service.iml" filepath="$PROJECT_DIR$/application/sample-service/sample-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/security/security.iml" filepath="$PROJECT_DIR$/lib/security/security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/utility/utility.iml" filepath="$PROJECT_DIR$/lib/utility/utility.iml" />
+    </modules>
+  </component>
+</project>

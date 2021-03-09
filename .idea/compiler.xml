@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="exception" />
+        <module name="notification" />
+        <module name="security" />
+        <module name="file-handler" />
+        <module name="logging" />
+        <module name="utility" />
+        <module name="api-docs" />
+        <module name="sample-service" />
+        <module name="backend-starter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-docs" target="11" />
+      <module name="backend-parent" target="11" />
+      <module name="backend-starter" target="11" />
+      <module name="exception" target="11" />
+      <module name="file-handler" target="11" />
+      <module name="logging" target="11" />
+      <module name="notification" target="11" />
+      <module name="sample-service" target="11" />
+      <module name="security" target="11" />
+      <module name="utility" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-docs" options="-parameters" />
+      <module name="backend-starter" options="-parameters" />
+      <module name="exception" options="-parameters" />
+      <module name="file-handler" options="-parameters" />
+      <module name="logging" options="-parameters" />
+      <module name="notification" options="-parameters" />
+      <module name="sample-service" options="-parameters" />
+      <module name="security" options="-parameters" />
+      <module name="utility" options="-parameters" />
+    </option>
+  </component>
+</project>

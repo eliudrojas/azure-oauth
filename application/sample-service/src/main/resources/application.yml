@@ -1,0 +1,76 @@
+spring:
+  profiles:
+    active: development
+  application:
+    name: sample-service
+  security:
+    oauth2:
+      client:
+        registration:
+          azure:
+            client-id: XXXX  # this is the application id of azure ad app
+            client-secret: XXX # this is the cient scrent of azure ad app
+            client-name: azure
+            redirect-uri: http://localhost:4200
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: test
+    password: test
+    hikari:
+      connection-timeout: 5000
+      maximum-pool-size: 100
+      minimum-idle: 10
+azure:
+  activedirectory:
+    client-id: XXXX  # this is the application id of azure ad app
+    allow-telemetry: false
+    client-secret: XX  # this is the cient scrent of azure ad app
+    user-group.allowed-groups: users # this is the azure ad group, this will allow the access to only users belonging to this group.  If you want add more group, provide comma-separated value
+    tenant-id: XXX
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+      - org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration
+
+
+server:
+  port: 8080
+  servlet:
+    session:
+      cookie:
+        http-only: true
+        secure: true
+  forward-headers-strategy: native
+
+app:
+  version: 1.0.0
+  security:
+    enabled: true
+  swagger:
+    enable-auth: true
+    title: Sample Service
+    desc: Helps to interact with Backend
+    version: v1
+    path-mapping: /
+    oauth:
+      client-id: XXX
+      client-key: XXXX
+      resource: '${backend-resource}'
+      login-endpoint: http://127.0.0.1:4200
+    contact:
+      name: Backend Team
+      email: test@test.com
+      url: ""
+    license: null
+    license-uri: null
+
+
+
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/application/sample-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib/api-docs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib/exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib/file-handler/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib/logging/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib/notification/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib/security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib/utility/src/main/java" charset="UTF-8" />
+  </component>
+</project>
